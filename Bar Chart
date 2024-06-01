@@ -1,0 +1,13 @@
+# Create Bar Chart
+import matplotlib.pyplot as plt
+# Sample data
+x = ['A', 'B', 'C', 'D', 'E']
+y = [10, 7, 5, 3, 8]
+# Create a bar chart
+plt.bar(x, y)
+# Add labels and title 
+plt.xlabel('Categories') 
+plt.ylabel('Values')
+plt.title('Bar Chart Example')
+# Show the plot
+plt.show()

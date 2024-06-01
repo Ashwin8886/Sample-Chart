@@ -11,3 +11,6 @@ plt.ylabel('Values')
 plt.title('Bar Chart Example')
 # Show the plot
 plt.show()
+
+
+https://github.com/Ashwin8886/Sample-Chart/issues/1#issue-2329291978

@@ -1,0 +1,19 @@
+# Create a grouped bar chart
+import seaborn as sns
+import pandas as pd
+# Sample data
+data = {
+'Category': ['A', 'B', 'C', 'D', 'E'],
+'Group 1': [10, 7, 5, 3, 8],
+'Group 2': [5, 3, 6, 4, 9]
+}
+# Convert data to DataFrame
+df = pd.DataFrame(data)
+# Create a grouped bar chart using Seaborn
+sns.barplot(x='Category', y= 'value', hue='variable', data=pd.melt (df, ['Category']))
+# Add labels and title
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Grouped Bar Chart Example')
+# Show the plot
+plt.show()
